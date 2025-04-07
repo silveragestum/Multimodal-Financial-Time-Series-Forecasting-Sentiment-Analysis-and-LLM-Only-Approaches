@@ -15,13 +15,8 @@ Install required libraries:
 pip install yfinance numpy pandas ta matplotlib seaborn
 
 Files
-Notebooks: 
-  Multimodal_Financial_Time_Series_Forecasting.ipynb
-  Robustness_Testing_Financial_Forecasting.ipynb
-CSVs (place in same folder as notebooks):
-  test_multimodal_data.csv (for Multimodal notebook heatmap)
-  test_close.csv (actual closing prices for Robustness notebook)
-  test_prompts_predictions.csv (predicted prices for Robustness notebook)
+Notebooks: Multimodal_Financial_Time_Series_Forecasting.ipynb, Robustness_Testing_Financial_Forecasting.ipynb
+CSVs (place in same folder as notebooks): test_multimodal_data.csv (for Multimodal notebook heatmap), test_close.csv (actual closing prices for Robustness notebook), test_prompts_predictions.csv (predicted prices for Robustness notebook)
 
 Setup Instructions
 1. Clone/download the repository:
