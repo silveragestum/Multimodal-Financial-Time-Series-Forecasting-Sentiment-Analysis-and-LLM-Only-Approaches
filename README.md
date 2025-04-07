@@ -23,14 +23,6 @@ CSVs (place in same folder as notebooks):
   test_close.csv (actual closing prices for Robustness notebook)
   test_prompts_predictions.csv (predicted prices for Robustness notebook)
 
-Folder Structure
-financial_forecasting/
-├── Multimodal_Financial_Time_Series_Forecasting.ipynb
-├── Robustness_Testing_Financial_Forecasting.ipynb
-├── test_multimodal_data.csv
-├── test_close.csv
-├── test_prompts_predictions.csv
-
 Setup Instructions
 1. Clone/download the repository:
 git clone <repository-url>
