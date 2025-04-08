@@ -2,8 +2,8 @@
 This repository contains two Jupyter Notebooks for financial time series forecasting and robustness testing using Apple (AAPL) stock data: Multimodal_Financial_Time_Series_Forecasting.ipynb and Robustness_Testing_Financial_Forecasting.ipynb.
 
 Project Overview
-Multimodal_Financial_Time_Series_Forecasting.ipynb: Compares LLM-only and sentiment analysis approaches for forecasting AAPL stock prices (Jan 1, 2020 - Dec 31, 2024). Calculates technical indicators, filters data from Apr 1, 2021, and generates a correlation heatmap.
-Robustness_Testing_Financial_Forecasting.ipynb: Tests robustness of forecasting approaches for AAPL stock prices (Jun 1, 2024 - Mar 10, 2025). Calculates technical indicators, filters data from Jan 2, 2025, and plots actual vs. predicted closing prices.
+Multimodal_Financial_Time_Series_Forecasting.ipynb: Compares sentiment analysis and LLM-only approaches for forecasting AAPL stock prices (Apr 1, 2020 - Dec 31, 2024). Calculates technical indicators, fits traditional supervised learning models and deep learning models for the sentiment analysis aproach, and constructs prompts for the LLM-only approach.
+Robustness_Testing_Financial_Forecasting.ipynb: Follow the same steps as in the Multimodal_Financial_Time_Series_Forecasting.ipynb. Tests robustness of forecasting approaches for AAPL stock prices (Jun 1, 2024 - Mar 10, 2025). Calculates technical indicators, predicts with the fine-tuned traditional supervised learning models and deep learning models in Multimodal_Financial_Time_Series_Forecasting.ipynb for the sentiment analysis aproach, and predicts with the fine-tuned LLM for the LLM-only approach.
 
 Prerequisites
 Python 3.12.4+
@@ -34,8 +34,8 @@ jupyter notebook
 Running the Notebooks
 Open each notebook in Jupyter and run cells sequentially.
 Multimodal Notebook:
-Downloads AAPL data, calculates indicators, filters data, and saves a heatmap (Correlation_Heatmap_of_Test_Multimodal_Data.png).
-Runtime: ~7463.91s (2+ hours).
+  Downloads AAPL data, calculates indicators, filters data, and saves a heatmap (Correlation_Heatmap_of_Test_Multimodal_Data.png).
+  Runtime: ~7463.91s (2+ hours).
 Robustness Notebook:
 Downloads AAPL data, calculates indicators, filters data, and saves a plot (Actual_vs_Predicted_Closing_Prices_Google.png).
 Runtime: ~35.89s.
