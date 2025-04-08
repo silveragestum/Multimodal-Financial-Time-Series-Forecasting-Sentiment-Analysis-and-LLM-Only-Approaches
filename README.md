@@ -11,12 +11,11 @@ Jupyter Notebook/JupyterLab
 Internet connection (for yfinance)
 
 Python Libraries
-Install required libraries:
-pip install yfinance numpy pandas ta matplotlib seaborn
+Install required libraries: pip install yfinance numpy pandas ta matplotlib seaborn
 
 Files
 Notebooks: Multimodal_Financial_Time_Series_Forecasting.ipynb, Robustness_Testing_Financial_Forecasting.ipynb
-CSVs (place in same folder as notebooks): 
+CSVs (place in same folder as notebooks): NewsData.io_Apple_Apr2021_to_30_Dec2024_9pm_UTC.csv (news dataset requested from Newsdata.io for ltimodal_Financial_Time_Series_Forecasting.ipynb)
 
 Setup Instructions
 1. Clone/download the repository:
@@ -33,10 +32,8 @@ jupyter notebook
 
 Running the Notebooks
 Open each notebook in Jupyter and run cells sequentially.
-Multimodal Notebook:
- Runtime: ~7463.91s (2+ hours).
-Robustness Notebook:
-  Runtime: ~35.89s.
+Multimodal Notebook Runtime: ~7463.91s (2+ hours).
+Robustness Notebook Runtime: ~35.89s.
   
 Notes
 Missing Data: Load CSVs for test_multimodal_data, test_close, and test_prompts_predictions before running relevant cells.
