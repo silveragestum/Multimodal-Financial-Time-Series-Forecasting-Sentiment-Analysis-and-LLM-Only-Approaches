@@ -40,23 +40,20 @@ pip install yfinance numpy pandas ta matplotlib seaborn
 jupyter notebook
 5. Verify CSVs are in the folder.
 
-Running the Notebooks
-Open each notebook in Jupyter and run cells sequentially.
-Multimodal Notebook Runtime: ~7463.91s (2+ hours).
-Robustness Notebook Runtime: ~35.89s.
+Running the Notebooks: Open each notebook in Jupyter and run cells sequentially.
+1. Multimodal Notebook Runtime: ~7463.91s (2+ hours).
+2. Robustness Notebook Runtime: ~35.89s.
   
 Notes
-Missing Data: Load CSVs above before running relevant cells.
-Internet Dependency: yfinance requires an internet connection.
+1. Missing Data: Load CSVs above before running relevant cells.
+2. Internet Dependency: yfinance requires an internet connection.
 
 Troubleshooting
-Module Not Found: Ensure libraries are installed.
-File Not Found: Verify CSVs are in the folder.
-Internet Issues: Check connection for yfinance.
-Plotting Errors: Ensure datasets are defined with required columns.
+1. Module Not Found: Ensure libraries are installed.
+2. File Not Found: Verify CSVs are in the folder.
+3. Internet Issues: Check connection for yfinance.
+4. Plotting Errors: Ensure datasets are defined with required columns.
 
-License
-For educational/research purposes. Comply with yfinance terms.
+License: For educational/research purposes. Comply with yfinance terms.
 
-Contact
-Open an issue in the repository or contact the maintainer.
+Contact: Open an issue in the repository or contact the maintainer.
