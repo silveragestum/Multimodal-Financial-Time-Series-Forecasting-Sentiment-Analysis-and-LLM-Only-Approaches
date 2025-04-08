@@ -16,7 +16,7 @@ pip install yfinance numpy pandas ta matplotlib seaborn
 
 Files
 Notebooks: Multimodal_Financial_Time_Series_Forecasting.ipynb, Robustness_Testing_Financial_Forecasting.ipynb
-CSVs (place in same folder as notebooks): test_multimodal_data.csv (for Multimodal notebook heatmap), test_close.csv (actual closing prices for Robustness notebook), test_prompts_predictions.csv (predicted prices for Robustness notebook)
+CSVs (place in same folder as notebooks): 
 
 Setup Instructions
 1. Clone/download the repository:
@@ -34,13 +34,10 @@ jupyter notebook
 Running the Notebooks
 Open each notebook in Jupyter and run cells sequentially.
 Multimodal Notebook:
-  Downloads AAPL data, calculates indicators, filters data, and saves a heatmap (Correlation_Heatmap_of_Test_Multimodal_Data.png).
   Runtime: ~7463.91s (2+ hours).
 Robustness Notebook:
-Downloads AAPL data, calculates indicators, filters data, and saves a plot (Actual_vs_Predicted_Closing_Prices_Google.png).
-Runtime: ~35.89s.
-Add CSV loading if missing (e.g., pd.read_csv('test_close.csv')).
-
+  Runtime: ~35.89s.
+  
 Notes
 Missing Data: Load CSVs for test_multimodal_data, test_close, and test_prompts_predictions before running relevant cells.
 Internet Dependency: yfinance requires an internet connection.
