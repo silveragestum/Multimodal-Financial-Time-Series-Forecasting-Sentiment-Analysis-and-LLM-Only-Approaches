@@ -34,7 +34,7 @@ jupyter notebook
 Running the Notebooks
 Open each notebook in Jupyter and run cells sequentially.
 Multimodal Notebook:
-  Runtime: ~7463.91s (2+ hours).
+ Runtime: ~7463.91s (2+ hours).
 Robustness Notebook:
   Runtime: ~35.89s.
   
