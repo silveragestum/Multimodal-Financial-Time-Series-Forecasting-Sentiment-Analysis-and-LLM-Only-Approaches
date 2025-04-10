@@ -38,7 +38,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install yfinance numpy pandas ta matplotlib seaborn
 4. Launch Jupyter Notebook:
 jupyter notebook
-5. Verify CSVs are in the folder.
+5. Download the file NewsData.io_Apple_Apr2021_to_30_Dec2024_9pm_UTC.csv from this link: https://drive.google.com/file/d/1hXUcHeGaGe792itzYMqFB7Gj7ww78jUg/view
+6. Verify CSVs are in the folder.
+   
 
 Running the Notebooks: Open each notebook in Jupyter and run cells sequentially.
 1. Multimodal Notebook Runtime: ~7463.91s (2+ hours).
