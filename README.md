@@ -4,6 +4,7 @@ This repository contains two Jupyter Notebooks for financial time series forecas
 Project Overview
 1. Multimodal_Financial_Time_Series_Forecasting.ipynb: Compares sentiment analysis and LLM-only approaches for forecasting AAPL stock prices (Apr 1, 2020 - Dec 31, 2024). Calculates technical indicators, fits traditional supervised learning models and deep learning models for the sentiment analysis aproach, and constructs prompts for the LLM-only approach.
 2. Robustness_Testing_Financial_Forecasting.ipynb: Follow the same steps as in the Multimodal_Financial_Time_Series_Forecasting.ipynb. Tests robustness of forecasting approaches for AAPL stock prices (Jun 1, 2024 - Mar 10, 2025). Calculates technical indicators, predicts with the fine-tuned traditional supervised learning models and deep learning models in Multimodal_Financial_Time_Series_Forecasting.ipynb for the sentiment analysis aproach, and predicts with the fine-tuned LLM for the LLM-only approach.
+3. Google News Web Scraping.ipynb: Scrape news with keywords of AAPL stocks for robustness testing.
 
 Prerequisites
 1. Python 3.12.4+
@@ -16,6 +17,7 @@ Python Libraries
 Notebooks
 1. Multimodal_Financial_Time_Series_Forecasting.ipynb
 2. Robustness_Testing_Financial_Forecasting.ipynb
+3. Google News Web Scraping.ipynb
 
 CSVs (place in same folder as notebooks)
 1. NewsData.io_Apple_Apr2021_to_30_Dec2024_9pm_UTC.csv (news dataset requested from Newsdata.io for Multimodal_Financial_Time_Series_Forecasting.ipynb)
@@ -45,6 +47,7 @@ jupyter notebook
 Running the Notebooks: Open each notebook in Jupyter and run cells sequentially.
 1. Multimodal Notebook Runtime: ~7463.91s (2+ hours).
 2. Robustness Notebook Runtime: ~35.89s.
+3. Google News Web Scraping Runtime: a few seconds.
   
 Notes
 1. Missing Data: Load CSVs above before running relevant cells.
